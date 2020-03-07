@@ -1,3 +1,5 @@
+from libcpp.vector cimport vector
+
 # rectangle.pyx
 cdef extern from "rectangle.h" namespace "shapes":
     cdef cppclass Rectangle:
