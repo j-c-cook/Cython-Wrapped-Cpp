@@ -1,3 +1,4 @@
+# Cython header file 
 cdef extern from "rectangle.h" namespace "shapes":
     cdef cppclass Rectangle:
         Rectangle(int, int, int, int)

@@ -14,11 +14,11 @@ extensions = [
         sources=['FooPackage/vectoffloats.cpp', 'FooPackage/vectofFloats_.pyx'],  # the files that go into building the .so
         include_dirs=[numpy.get_include()],
         language='c++'),
-    # Extension(
-    #     name='FooPackage.vectofRectangles',  # name/path to generated so file
-    #     sources=['FooPackage/vectofrectangles.cpp', 'FooPackage/vectofrectangles_.pyx'],  # the files that go into building the .so
-    #     include_dirs=[numpy.get_include()],
-    #     language='c++')
+    Extension(
+        name='FooPackage.vectofRectangles',  # name/path to generated so file
+        sources=['FooPackage/vectofrectangles.cpp', 'FooPackage/vectofrectangles_.pyx'],  # the files that go into building the .so
+        include_dirs=[numpy.get_include()],
+        language='c++')
 ]
 
 setup(name='cythonpack',

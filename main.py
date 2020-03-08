@@ -3,6 +3,7 @@
 
 import FooPackage.rectangle as rect
 from FooPackage import vectofFloats
+from FooPackage import vectofRectangles
 
 
 def main():
@@ -16,6 +17,9 @@ def main():
     print(dir(rect_obj))
 
     vectofFloats.pass_by_ref([2.2, 2.3, 3.3])
+
+    a = [rect_obj, rect_obj]
+    vectofRectangles.pass_by_ref(a)
 
 
 if __name__ == '__main__':
