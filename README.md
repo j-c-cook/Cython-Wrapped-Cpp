@@ -1,5 +1,10 @@
 # Cython-Wrapped-Cpp
-This is an example repository on how to wrap C++ functions and classes with Cython and call it from Python
+This is an example repository on how to wrap C++ functions and classes with Cython and call it from Python.
+
+The objective of this project was to make a C++ object available in Python for use,
+then to pass a list of that object into a C++ function for processing. It is done, but
+has some in getting the list of objects converted to a vector of objects in C++.
+There is room for improvement. 
 
 ## Getting Started ##
 These instructions will get a copy of the project up and running on your machine for development and testing purposes.
