@@ -1,5 +1,6 @@
 // Rectangle.cpp
 #include "rectangle.h"
+#include <vector>
 
 using namespace shapes;
 

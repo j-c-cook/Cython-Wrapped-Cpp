@@ -1,14 +1,8 @@
-from libcpp.vector cimport vector
 
 # rectangle.pyx
-cdef extern from "rectangle.h" namespace "shapes":
-    cdef cppclass Rectangle:
-        Rectangle(int, int, int, int)
-        int x0, y0, x1, y1
-        int getLength()
-        int getHeight()
-        int getArea()
-        void move(int, int)
+from rectangle_ cimport Rectangle
+
+
 
 cdef class PyRectangle:
     cdef Rectangle *c_rect      # hold a C++ instance which we're wrapping

@@ -4,12 +4,20 @@
 
 #include "vectofrectangles.h"
 
-std::vector<float> func(std::vector<shapes::Rectangle> vectOfRect)
+void funcy(const std::vector<int>& Xones, const std::vector<int>& Yones,
+           const std::vector<int>& Xtwos, const std::vector<int>& Ytwos, std::vector<shapes::Rectangle>& Rectangles)
 {
-    std::vector<float> AreaVect(vectOfRect.size());
-    for (size_t i = 0; i < vectOfRect.size(); ++i)
+    for (size_t i = 0; i < Xones.size(); ++i)
     {
-        AreaVect[i] = vectOfRect[i].getArea();
+        Rectangles[i] = shapes::Rectangle(Xones[i], Yones[i], Xtwos[i], Ytwos[i]);
     }
-    return AreaVect;
+}
+
+void DoBigly(const std::vector<int>& Xones, const std::vector<int>& Yones,
+             const std::vector<int>& Xtwos, const std::vector<int>& Ytwos)
+{
+    std::vector<shapes::Rectangle> VectOfRectangles(Xones.size());
+    funcy(Xones, Yones, Xtwos, Ytwos, VectOfRectangles);
+    // do stuff
+    std::cout << "Now we have a vector of rectangles in cpp" << std::endl;
 }
