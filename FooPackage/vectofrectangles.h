@@ -6,7 +6,7 @@
 #ifndef CYTHON_WRAPPED_CPP_VECTOFRECTANGLES_H
 #define CYTHON_WRAPPED_CPP_VECTOFRECTANGLES_H
 
-#include "rectangle.h"
+#include "RectanglePackage/rectangle.h"
 #include <iostream>
 #include <vector>
 

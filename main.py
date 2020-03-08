@@ -1,7 +1,7 @@
 # Jack C. Cook
 # Saturday, March 7, 2020
 
-import FooPackage.rectangle as rect
+import FooPackage.RectanglePackage.rectangle as rect
 from FooPackage import vectofFloats
 from FooPackage import vectofRectangles
 

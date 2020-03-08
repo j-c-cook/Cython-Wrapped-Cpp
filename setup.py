@@ -5,8 +5,8 @@ import numpy
 
 extensions = [
     Extension(
-        name='FooPackage.rectangle',  # name/path to generated so file
-        sources=['FooPackage/rectangle.cpp', 'FooPackage/rectangle_.pyx'],  # the files that go into building the .so
+        name='FooPackage.RectanglePackage.rectangle',  # name/path to generated so file
+        sources=['FooPackage/RectanglePackage/rectangle.cpp', 'FooPackage/RectanglePackage/rectangle_.pyx'],  # the files that go into building the .so
         include_dirs=[numpy.get_include()],
         language='c++'),  # could put comma and list another extension
     Extension(
