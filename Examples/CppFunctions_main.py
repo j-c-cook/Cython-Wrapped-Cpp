@@ -7,6 +7,7 @@
 
 from CppFunctions.HelloWorld import helloworldfunction
 from CppFunctions.PrimeNumbers import PrimeNumbers
+from CppFunctions.CalculateDistance import CalculateDistance
 
 
 def main():
@@ -16,6 +17,14 @@ def main():
     lst = []
     lst = PrimeNumbers._primes(lst, 10)
     print(lst)
+    # -------- Calculating Distance using unordered map -----
+    dnary = {}
+    dnary["x1"] = 3
+    dnary["y1"] = 3
+    dnary["x2"] = 10
+    dnary["y2"] = 10
+    dist = CalculateDistance._CalcDist(dnary)
+    print(dist)
 
 
 if __name__ == '__main__':

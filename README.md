@@ -3,7 +3,7 @@ This repository aims at introducing Cython, writing Cython functions and finally
 functions and classes available to be accessed directly from Python.
 
 The README file begins with the simplest examples and works its way to more difficult examples.
-Please feel free to start an issue if there are any questions. 
+Please feel free to start an issue if there are any questions.
 
 To run the example files you will need to run the setup files first.
 ```
@@ -32,13 +32,16 @@ Associated files - [PrimeNumbers.pyx](CythonFunctions/PrimeNumbers.pyx)
 
 ## Cpp Functions
 ### Hello World
-This example contains a C++ function wrapped by Cython and made available to be called in Python. The example prints "Hello World" from C++.
+This example contains a C++ function wrapped by Cython and made available to be
+called in Python. The example prints "Hello World" from C++.
 
 Example - [CppFunctions_main.py](Examples/CppFunctions_main.py)
 
 Setup File - [setup_CppFunctions.py](setup_CppFunctions.py)
 
-Associated Files - [HelloWorldFunc.cpp](CppFunctions/HelloWorld/HelloWorldFunc.cpp), &nbsp; [HelloWorldFunc.h](CppFunctions/HelloWorld/HelloWorldFunc.h), &nbsp; [HelloWorldFunction_.pyx](CppFunctions/HelloWorld/HelloWorldFunction_.pyx)
+Associated Files - [HelloWorldFunc.cpp](CppFunctions/HelloWorld/HelloWorldFunc.cpp),
+&nbsp; [HelloWorldFunc.h](CppFunctions/HelloWorld/HelloWorldFunc.h), &nbsp;
+[HelloWorldFunction_.pyx](CppFunctions/HelloWorld/HelloWorldFunction_.pyx)
 
 ### Prime Numbers
 This is different from the previous Prime Numbers example which is solely in Cython.

@@ -22,6 +22,15 @@ extensions = [
         sources=['CppFunctions/PrimeNumbers/PrimeNumbers.cpp', 'CppFunctions/PrimeNumbers/PrimeNumbers_.pyx'],
         include_dirs=[np.get_include()],
         language='c++'
+    ),
+    # ----------- Calculate Distance with dictionary Extension ---------------
+    Extension(
+        name='CppFunctions.CalculateDistance.CalculateDistance',  # this will become <name>.so
+        # now a list of the cython and cpp files
+        sources=['CppFunctions/CalculateDistance/CalculateDistance.cpp',
+                 'CppFunctions/CalculateDistance/CalculateDistance_.pyx'],
+        include_dirs=[np.get_include()],
+        language='c++'
     )
 ]
 
