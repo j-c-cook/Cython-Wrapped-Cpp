@@ -35,3 +35,16 @@ Example - [CppFunctions_main.py](Examples/CppFunctions_main.py)
 Setup File - [setup_CppFunctions.py](setup_CppFunctions.py)
 
 Associated Files - [HelloWorldFunc.cpp](CppFunctions/HelloWorld/HelloWorldFunc.cpp), &nbsp; [HelloWorldFunc.h](CppFunctions/HelloWorld/HelloWorldFunc.h), &nbsp; [HelloWorldFunction_.pyx](CppFunctions/HelloWorld/HelloWorldFunction_.pyx)
+
+### Prime Numbers
+This is different from the Prime Numbers example which is solely in Cython.
+This example makes use of a function to find prime numbers from 0 to n, which
+is "crunched" in C++.
+
+Example - [CppFunctions_main.py](Examples/CppFunctions_main.py)
+
+Setup File - [setup_CppFunctions.py](setup_CppFunctions.py)
+
+Associated Files - [PrimeNumbers.cpp](CppFunctions/PrimeNumbers/PrimeNumbers.cpp), &nbsp;
+[PrimeNumbers.h](CppFunctions/PrimeNumbers/PrimeNumbers.h), &nbsp;
+[PrimeNumbers_.pyx](CppFunctions/PrimeNumbers/)
