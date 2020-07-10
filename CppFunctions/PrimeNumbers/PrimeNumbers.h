@@ -1,0 +1,8 @@
+//
+// Created by jackcook on 7/9/20.
+//
+
+#ifndef CYTHON_WRAPPED_CPP_PRIMENUMBERS_H
+#define CYTHON_WRAPPED_CPP_PRIMENUMBERS_H
+
+#endif //CYTHON_WRAPPED_CPP_PRIMENUMBERS_H
