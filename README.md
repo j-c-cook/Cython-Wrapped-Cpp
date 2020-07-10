@@ -1,6 +1,9 @@
 # Cython-Wrapped-Cpp
 This repository aims at introducing Cython, writing Cython functions and finally making C++
-functions and classes available to be accessed directly from Python
+functions and classes available to be accessed directly from Python.
+
+The README file begins with the simplest examples and works its way to more difficult examples.
+Please feel free to start an issue if there are any questions. 
 
 To run the example files you will need to run the setup files first.
 ```
