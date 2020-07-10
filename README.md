@@ -26,5 +26,12 @@ Setup File - [setup_CppFunctions.py](setup_CppFunctions.py)
 
 Associated files - [PrimeNumbers.pyx](CythonFunctions/PrimeNumbers.pyx)
 
-
 ## Cpp Functions
+### Hello World
+This example contains a C++ function wrapped by Cython and made available to be called in Python. The example prints "Hello World" from C++.
+
+Example - [cppfunctions_main.py](Examples/cppfunctions_main.py)
+
+Setup File - [setup_CppFunctions.py](setup_CppFunctions.py)
+
+Associated Files - [HelloWorldFunc.cpp](CppFunctions/HelloWorld/HelloWorldFunc.cpp), &nbsp; [HelloWorldFunc.h](CppFunctions/HelloWorld/HelloWorldFunc.h), &nbsp; [HelloWorldFunction_.pyx](CppFunctions/HelloWorld/HelloWorldFunction_.pyx)
