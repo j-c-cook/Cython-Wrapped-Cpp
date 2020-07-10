@@ -10,9 +10,9 @@ python <setup.py> build_ext --inplace
 ### Hello World Cython example
 This is a very simple hello world Cython example.
 
-Example - [simple_main.py](Examples/simple_main.py)
+Example - [Simple_main.py](Examples/Simple_main.py)
 
-Setup File - [setup_simple.py](setup_Simple.py)
+Setup File - [setup_Simple.py](setup_Simple.py)
 
 Associated files - [helloworld.pyx](Simple/helloworld.pyx)
 
@@ -20,7 +20,7 @@ Associated files - [helloworld.pyx](Simple/helloworld.pyx)
 ### Prime Numbers function Example
 This contains an example written in Cython, which makes use of a C++ built in type `vector`.
 
-Example - [cythonfunctions_main.py](Examples/cythonfunctions_main.py)
+Example - [CythonFunctions_main.py](Examples/CythonFunctions_main.py)
 
 Setup File - [setup_CppFunctions.py](setup_CppFunctions.py)
 
@@ -30,7 +30,7 @@ Associated files - [PrimeNumbers.pyx](CythonFunctions/PrimeNumbers.pyx)
 ### Hello World
 This example contains a C++ function wrapped by Cython and made available to be called in Python. The example prints "Hello World" from C++.
 
-Example - [cppfunctions_main.py](Examples/cppfunctions_main.py)
+Example - [CppFunctions_main.py](Examples/CppFunctions_main.py)
 
 Setup File - [setup_CppFunctions.py](setup_CppFunctions.py)
 
