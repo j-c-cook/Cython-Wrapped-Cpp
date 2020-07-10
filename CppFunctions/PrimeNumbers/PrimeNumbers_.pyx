@@ -28,7 +28,7 @@ cpdef vector_to_lst(vector[int] v):
     :return: a python list
     """
     lst = []
-    for i in v.size():
+    for i in range(v.size()):
         lst.append(v[i])
     return lst
 

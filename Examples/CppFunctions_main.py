@@ -10,7 +10,12 @@ from CppFunctions.PrimeNumbers import PrimeNumbers
 
 
 def main():
+    # --------- Hello World C++ Function Example -----------
     helloworldfunction.CallHelloWorldFunc()
+    # --------- Prime Numbers C++ Functin Example ----------
+    lst = []
+    lst = PrimeNumbers._primes(lst, 10)
+    print(lst)
 
 
 if __name__ == '__main__':
