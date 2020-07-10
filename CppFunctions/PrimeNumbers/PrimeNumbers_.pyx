@@ -33,6 +33,12 @@ cpdef vector_to_lst(vector[int] v):
     return lst
 
 cpdef _primes(_p: list, nb_primes: int):
+    """
+    This function can be called from a python script and can then make use of the primes function in C++
+    :param _p: this is an empty python list defined in the previous function
+    :param nb_primes: this is the number of primes top limit, ie. np_primes = 10 -> [2, 3, 5, 7]
+    :return: a list of the primes up to nb_primes
+    """
     cdef vector[int] p
     p = lst_to_vector(_p)
     primes(p, nb_primes)
