@@ -1,5 +1,6 @@
 # Cython-Wrapped-Cpp
-This is an example repository on how to wrap C++ functions and classes with Cython and then call them from Python
+This repository aims at introducing Cython, writing Cython functions and finally making C++
+functions and classes available to be accessed directly from Python
 
 To run the example files you will need to run the setup files first.
 ```
@@ -37,7 +38,7 @@ Setup File - [setup_CppFunctions.py](setup_CppFunctions.py)
 Associated Files - [HelloWorldFunc.cpp](CppFunctions/HelloWorld/HelloWorldFunc.cpp), &nbsp; [HelloWorldFunc.h](CppFunctions/HelloWorld/HelloWorldFunc.h), &nbsp; [HelloWorldFunction_.pyx](CppFunctions/HelloWorld/HelloWorldFunction_.pyx)
 
 ### Prime Numbers
-This is different from the Prime Numbers example which is solely in Cython.
+This is different from the previous Prime Numbers example which is solely in Cython.
 This example makes use of a function to find prime numbers from 0 to n, which
 is "crunched" in C++.
 
