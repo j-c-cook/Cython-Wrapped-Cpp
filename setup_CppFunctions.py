@@ -8,9 +8,18 @@ from Cython.Distutils import build_ext
 
 extensions = [
     Extension(
+        # -------- Hello World Extension ----------
         name='CppFunctions.HelloWorld.helloworldfunction',  # this will become <name>.so
         # now a list of the cython and cpp files
         sources=['CppFunctions/HelloWorld/HelloWorldFunc.cpp', 'CppFunctions/HelloWorld/HelloWorldFunction_.pyx'],
+        include_dirs=[np.get_include()],
+        language='c++'
+    ),
+    # ----------- Prime Numbers Extension ---------------
+    Extension(
+        name='CppFunctions.PrimeNumbers.PrimeNumbers',  # this will become <name>.so
+        # now a list of the cython and cpp files
+        sources=['CppFunctions/PrimeNumbers/PrimeNumbers.cpp', 'CppFunctions/PrimeNumbers/PrimeNumbers_.pyx'],
         include_dirs=[np.get_include()],
         language='c++'
     )

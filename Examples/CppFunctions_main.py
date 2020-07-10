@@ -6,6 +6,7 @@
 # Step 3: output should be '[Hello world from C++]'
 
 from CppFunctions.HelloWorld import helloworldfunction
+from CppFunctions.PrimeNumbers import PrimeNumbers
 
 
 def main():
